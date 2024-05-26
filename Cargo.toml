@@ -1,5 +1,5 @@
 [package]
-name = "Gaussian_Discriminant_Analysis"
+name = "gaussian_discriminant_analysis"
 version = "0.1.0"
 authors = ["David Bosc <davidjnbosc@gmail.com>"]
 edition = "2021"

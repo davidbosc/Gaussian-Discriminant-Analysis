@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'Gaussian_Discriminant_Analysis'",
+            "name": "Debug executable 'gaussian_discriminant_analysis'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=Gaussian_Discriminant_Analysis",
-                    "--package=Gaussian_Discriminant_Analysis"
+                    "--bin=gaussian_discriminant_analysis",
+                    "--package=gaussian_discriminant_analysis"
                 ],
                 "filter": {
-                    "name": "Gaussian_Discriminant_Analysis",
+                    "name": "gaussian_discriminant_analysis",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'Gaussian_Discriminant_Analysis'",
+            "name": "Debug unit tests in executable 'gaussian_discriminant_analysis'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=Gaussian_Discriminant_Analysis",
-                    "--package=Gaussian_Discriminant_Analysis"
+                    "--bin=gaussian_discriminant_analysis",
+                    "--package=gaussian_discriminant_analysis"
                 ],
                 "filter": {
-                    "name": "Gaussian_Discriminant_Analysis",
+                    "name": "gaussian_discriminant_analysis",
                     "kind": "bin"
                 }
             },
